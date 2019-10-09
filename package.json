@@ -1,5 +1,5 @@
 {
-  "name": "gargoyle",
+  "name": "green-gargoyle",
   "version": "1.0.0",
   "engines": {
     "node": "10.16.3"
@@ -15,15 +15,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/osaisacson/gargoyle.git"
+    "url": "git+https://github.com/osaisacson/green-gargoyle.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/osaisacson/gargoyle/issues"
+    "url": "https://github.com/osaisacson/green-gargoyle/issues"
   },
-  "homepage": "https://github.com/osaisacson/gargoyle#readme",
+  "homepage": "https://github.com/osaisacson/green-gargoyle#readme",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.22",
     "@fortawesome/free-solid-svg-icons": "^5.10.2",
