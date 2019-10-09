@@ -495,34 +495,34 @@ Intro
 About
 ================================= */
 
-#about .about-img {
+.small-section .about-img {
   height: 350px;
   overflow: hidden;
 }
 
-#about .about-img img {
+.small-section .about-img img {
   margin-left: -15px;
   max-width: 100%;
 }
 
 @media (max-width: 768px) {
-  #about .about-img {
+  .small-section .about-img {
     height: auto;
   }
-  #about .about-img img {
+  .small-section .about-img img {
     margin-left: 0;
     padding-bottom: 30px;
   }
 }
 
-#about .content h2 {
+.small-section .content h2 {
   color: #333;
   font-weight: 300;
   font-size: 24px;
   text-align: center;
 }
 
-#about .content h3 {
+.small-section .content h3 {
   color: #777;
   font-weight: 300;
   font-size: 18px;
