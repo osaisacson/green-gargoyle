@@ -159,6 +159,39 @@ Helpers
 }
 
 /* ================================
+Counter
+================================= */
+
+.counter {
+  background-color: #f5f5f5;
+  padding: 20px 0;
+  border-radius: 5px;
+}
+
+.count-title {
+  font-size: 40px;
+  font-weight: normal;
+  margin-top: 10px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.count-text {
+  font-size: 13px;
+  font-weight: normal;
+  margin-top: 10px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.fa-2x {
+  margin: 0 auto;
+  float: none;
+  display: table;
+  color: #4ad1e5;
+}
+
+/* ================================
 Team image gallery
 ================================= */
 
@@ -302,7 +335,7 @@ Parallax
 ============================= */
 
 #parallax1 {
-  background-image: url(https://images.unsplash.com/photo-1518984935012-271786e50ecf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
+  background-image: url(https://images.unsplash.com/photo-1510391947036-00d38cc22ad8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1988&q=80);
 }
 #parallax2 {
   background-image: url(../img/parallax/2.jpg);
