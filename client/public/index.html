@@ -17,7 +17,6 @@
 
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen" />
     <link href="css/style.css" rel="stylesheet" media="screen" />
-    <link href="color/default.css" rel="stylesheet" media="screen" />
 
     <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
@@ -169,32 +168,27 @@
       </div>
     </section>
 
+    <!-- Numbers -->
     <section id="numbers">
-        <div class="container">
-            <div class="row text-center">
-            <div class="col-md-4">
-            <div class="counter">
-                <p class="count-text ">We have so far set up</p>
-                <h2 class="timer count-title count-number" data-to="28" data-speed="1500"></h2>
-         <p class="count-text ">active gardens</p>
-      </div>
-            </div>
-                <div class="col-md-4">
-                 <div class="counter">
-                    <p class="count-text ">...which produce</p>
-                    <h2 class="timer count-title count-number" data-to="648" data-speed="1500"></h2>
-        <p class="count-text ">kg vegetables /month</p>
-      </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="counter">
-                        <p class="count-text ">and save</p>
-                        <h2 class="timer count-title count-number" data-to="1400" data-speed="1500"></h2>
-        <p class="count-text ">kg c20 in food transports</p>
-      </div></div>
-                
-           </div>
+      <div class="container">
+        <div class="flex-wrap">
+          <div class="counter">
+              <p class="count-text ">We have so far set up</p>
+              <h2 class="timer count-title count-number" data-to="28" data-speed="1500"></h2>
+            <p class="count-text ">active gardens</p>
           </div>
+          <div class="counter">
+            <p class="count-text ">...which produce</p>
+            <h2 class="timer count-title count-number" data-to="648" data-speed="1500"></h2>
+            <p class="count-text ">kg vegetables /month</p>
+          </div>
+          <div class="counter">
+              <p class="count-text ">and save</p>
+              <h2 class="timer count-title count-number" data-to="1400" data-speed="1500"></h2>
+              <p class="count-text ">kg c02 in food transports</p>
+         </div>
+        </div>
+      </div>
     </section>
 
     <!-- Parallax 1 -->
@@ -243,16 +237,14 @@
               Our gardens go from the very small to the very large. It all depends on the space, conditions and budget available.
             </p>
             <p>Regardless of size our gardens always produce food, save money and reduce transport. <br>Sometimes they also produce electricity, reduce sewage, create soil, collect water and grow fish.</p>
-            <p>
-              It is all a happy mix of these systems:
-              <p></p>- Grow boxes
-              <p></p>- Rain water collection
-              <p></p>- Self watering
-              <p></p>- Solar panels
-              <p></p>- Composting
-              <p></p>- Nutrient solution recycling
-              <p></p>- Aquaponics
-            </p>
+            <p>It is all a happy mix of these systems:</p>
+              <p>- Grow boxes</p>
+              <p>- Rain water collection</p>
+              <p>- Self watering</p>
+              <p>- Solar panels</p>
+              <p>- Composting</p>
+              <p>- Nutrient solution recycling</p>
+              <p>- Aquaponics</p>
           </div>
         </div>
       </div>
@@ -294,8 +286,7 @@
     </div>
 
     <div class="container">
-      <div class="row gallery" id="gallery">
-          
+      <div class="flex-wrap" id="garden-gallery">
         <img
           class="gallery-img all 1"
           src="https://images.unsplash.com/photo-1494380963178-7e05eb8fe22c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
@@ -340,173 +331,165 @@
     </div>
   </section>
 
-    <!-- Crops -->
-    <section id="crops" class="home-section bg-white">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-offset-2 col-md-8">
-              <div class="section-heading">
-                <h2>Crops</h2>
-                <div class="heading-line"></div>
-                <p>
-                    Our nursery lets us set up a garden quick and easy.
-                </p>
-                <p>At the beginning of each season we send you a custom suggestion for what to grow next, based on your particular conditions.</p>
-                <p>
-                    These are the crops currently growing in the above gardens.
-                </p>
-              </div>
-            </div>
+
+  <!-- Crops -->
+  <section id="crops" class="home-section bg-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-offset-2 col-md-8">
+          <div class="section-heading">
+            <h2>Crops</h2>
+            <h6>Our nursery lets us set up a garden quick and easy.</h6>
+            <p>These are the crops currently growing in the above gardens.</p>
+            <div class="heading-line"></div>
           </div>
         </div>
-    
-        <div class="container">
-          <div class="row gallery" id="gallery">
-              <img
-              class="gallery-img all 1"
-              src="https://images.unsplash.com/photo-1552670070-7901ae9ffce2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"
-              alt=" "
-            />
-              <img
-              class="gallery-img all 1"
-              src="https://images.unsplash.com/photo-1531857475897-48f2102b7566?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=945&q=80"
-              alt=" "
-            />
-              <img
-              class="gallery-img all 1"
-              src="https://images.unsplash.com/photo-1557840704-759ba2741139?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1867&q=80"
-              alt=" "
-            />
-              <img
-              class="gallery-img all 1"
-              src="https://images.unsplash.com/photo-1540148426945-6cf22a6b2383?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"
-              alt=" "
-            />
-              <img
-              class="gallery-img all 2"
-              src="https://images.unsplash.com/photo-1450893979860-22a2c0a0518f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"
-              alt=" "
-            />
-            <img
-              class="gallery-img all 3"
-              src="https://images.unsplash.com/photo-1510130387422-82bed34b37e9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=975&q=80"
-              alt=" "
-            />
-
-            <img
-              class="gallery-img all 3"
-              src="https://images.unsplash.com/photo-1471194402529-8e0f5a675de6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
-              alt=" "
-            />
-            <img
-              class="gallery-img all 1"
-              src="https://images.unsplash.com/photo-1457530301326-d55420c9898a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"
-              alt=" "
-            />
-            <img
-            class="gallery-img all 2"
-            src="https://images.unsplash.com/photo-1518977676601-b53f82aba655?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"
-            alt=" "
-          />
+      </div>
+      <div class="flex-wrap" id="crops-gallery">
           <img
+          class="gallery-img all 1"
+          src="https://images.unsplash.com/photo-1552670070-7901ae9ffce2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"
+          alt=" "
+        />
+          <img
+          class="gallery-img all 1"
+          src="https://images.unsplash.com/photo-1531857475897-48f2102b7566?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=945&q=80"
+          alt=" "
+        />
+          <img
+          class="gallery-img all 1"
+          src="https://images.unsplash.com/photo-1557840704-759ba2741139?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1867&q=80"
+          alt=" "
+        />
+          <img
+          class="gallery-img all 1"
+          src="https://images.unsplash.com/photo-1540148426945-6cf22a6b2383?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"
+          alt=" "
+        />
+          <img
+          class="gallery-img all 2"
+          src="https://images.unsplash.com/photo-1450893979860-22a2c0a0518f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"
+          alt=" "
+        />
+        <img
+          class="gallery-img all 3"
+          src="https://images.unsplash.com/photo-1510130387422-82bed34b37e9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=975&q=80"
+          alt=" "
+        />
+
+        <img
+          class="gallery-img all 3"
+          src="https://images.unsplash.com/photo-1471194402529-8e0f5a675de6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
+          alt=" "
+        />
+        <img
+          class="gallery-img all 1"
+          src="https://images.unsplash.com/photo-1457530301326-d55420c9898a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"
+          alt=" "
+        />
+        <img
+          class="gallery-img all 2"
+          src="https://images.unsplash.com/photo-1518977676601-b53f82aba655?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"
+          alt=" "
+        />
+        <img
           class="gallery-img all 2"
           src="https://images.unsplash.com/photo-1467019972079-a273e1bc9173?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"
           alt=" "
         />
         <img
-        class="gallery-img all 1"
-        src="https://images.unsplash.com/photo-1518977956812-cd3dbadaaf31?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"
-        alt=" "
-      />
-      <img
-      class="gallery-img all 1"
-      src="https://images.unsplash.com/photo-1524179091875-bf99a9a6af57?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80"
-      alt=" "
-    />
-    <img
-    class="gallery-img all 1"
-    src="https://images.unsplash.com/photo-1524204294613-d17ec6520e13?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80"
-    alt=" "
-  />
-  <img
-  class="gallery-img all 1"
-  src="https://images.unsplash.com/photo-1432457990754-c8b5f21448de?ixlib=rb-1.2.1&auto=format&fit=crop&w=975&q=80"
-  alt=" "
-/>
-<img
-class="gallery-img all 1"
-src="https://images.unsplash.com/photo-1518635017498-87f514b751ba?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1952&q=80"
-alt=" "
-/>
-<img
-class="gallery-img all 1"
-src="https://images.unsplash.com/photo-1541795795328-f073b763494e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80"
-alt=" "
-/>
-          </div>
-        </div>
-      </section>
+          class="gallery-img all 1"
+          src="https://images.unsplash.com/photo-1518977956812-cd3dbadaaf31?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"
+          alt=" "
+        />
+        <img
+          class="gallery-img all 1"
+          src="https://images.unsplash.com/photo-1524179091875-bf99a9a6af57?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80"
+          alt=" "
+        />
+        <img
+          class="gallery-img all 1"
+          src="https://images.unsplash.com/photo-1524204294613-d17ec6520e13?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80"
+          alt=" "
+        />
+        <img
+          class="gallery-img all 1"
+          src="https://images.unsplash.com/photo-1432457990754-c8b5f21448de?ixlib=rb-1.2.1&auto=format&fit=crop&w=975&q=80"
+          alt=" "
+        />
+        <img
+          class="gallery-img all 1"
+          src="https://images.unsplash.com/photo-1518635017498-87f514b751ba?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1952&q=80"
+          alt=" "
+        />
+        <img
+          class="gallery-img all 1"
+          src="https://images.unsplash.com/photo-1541795795328-f073b763494e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80"
+          alt=" "
+        />
+      </div>
+    </div>
+  </section>
 
-  
-    <!-- Services -->
-    <section id="services" class="home-section bg-white">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-offset-2 col-md-8">
-            <div class="section-heading">
-              <h2>Our system</h2>
-              <h3>The complete system below starts at a total cost of €200 - the max depends on your space, needs and own expertise level.</h3>
-              <h6>We make it happen in four steps:</p>
-              <p>1. Analysis</p>
-              <p>2. Setup</p>
-              <p>3. Quality Control</p>
-              <p>4. Community</p>
-              <div class="heading-line"></div>
-            </div>
+  <!-- Services -->
+  <section id="services" class="home-section bg-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-offset-2 col-md-8">
+          <div class="section-heading">
+            <h2>Our system</h2>
+            <h6>The complete system below starts at a total cost of €200 - the max depends on your space, needs and own expertise level.</h6>
+            <h6>We make it happen in four steps:</h6>
+            <p>1. Analysis</p>
+            <p>2. Setup</p>
+            <p>3. Quality Control</p>
+            <p>4. Community</p>
+            <div class="heading-line"></div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Analysis -->
-    <section id="analysis" class="small-section home-section bg-white">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-offset-2 col-md-8">
-            <div class="section-heading">
-              <h2>1. Analysis</h2>
-              <div class="heading-line"></div>
-            </div>
-          </div>
-        </div>
-        <div class="row wow fadeInUp">
-          <div class="col-md-6 about-img">
-            <img
-              src="https://images.unsplash.com/photo-1509910387569-734a87698588?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1568&q=80"
-              alt=""
-            />
-          </div>
-
-          <div class="col-md-6 content">
-            <h2>
-              50€/20€
-            </h2>
-            <h3>
-              Quick visit to analyse:
-              <br />- Your available space <br />- The conditions of your space:
-              sun, wind, humidity <br />- Your wishes for the space: mix
-              gardening/social <br />- First crop suggestions
-            </h3>
-            <h3>
-              The analysis can be made either through a personal visit, 50€ and
-              approximately one hour, or (if you are more experienced with
-              gardening) as a self assessment (20€) where we send you what info
-              we need.
-            </h3>
+  <!-- Analysis -->
+  <section id="analysis" class="small-section home-section bg-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-offset-2 col-md-8">
+          <div class="section-heading">
+            <h2>1. Analysis</h2>
+            <div class="heading-line"></div>
           </div>
         </div>
       </div>
-    </section>
+      <div class="row wow fadeInUp">
+        <div class="col-md-6 about-img">
+          <img
+            src="https://images.unsplash.com/photo-1509910387569-734a87698588?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1568&q=80"
+            alt=""
+          />
+        </div>
+
+        <div class="col-md-6 content">
+          <h2>
+            50€/20€
+          </h2>
+          <h3>
+            Quick visit to analyse:
+            <br />- Your available space <br />- The conditions of your space:
+            sun, wind, humidity <br />- Your wishes for the space: mix
+            gardening/social <br />- First crop suggestions
+          </h3>
+          <h3>
+            The analysis can be made either through a personal visit, 50€ and
+            approximately one hour, or (if you are more experienced with
+            gardening) as a self assessment (20€) where we send you what info
+            we need.
+          </h3>
+        </div>
+      </div>
+    </div>
+  </section>
 
     <!-- Set up -->
     <section id="set-up" class="small-section home-section bg-white">
