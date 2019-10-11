@@ -165,8 +165,8 @@ jQuery(function($) {
   var selectedClass = "";
   $(".filter").click(function() {
     selectedClass = $(this).attr("data-rel");
-    $("#gallery").fadeTo(100, 0);
-    $("#gallery img")
+    $("#garden-gallery").fadeTo(100, 0);
+    $("#garden-gallery img")
       .not("." + selectedClass)
       .fadeOut()
       .removeClass("animated fadeIn");
@@ -174,7 +174,7 @@ jQuery(function($) {
       $("." + selectedClass)
         .fadeIn()
         .addClass("animated fadeIn");
-      $("#gallery").fadeTo(300, 1);
+      $("#garden-gallery").fadeTo(300, 1);
     }, 300);
   });
 
