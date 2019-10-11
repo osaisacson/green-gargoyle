@@ -156,7 +156,7 @@ margin, padding
 /* ================================
 Helpers
 ================================= */
-.flex-wrap, .flex-wrap-and-center {
+.flex-wrap, .space-evenly, .flex-wrap-and-center {
   display: flex;
   flex-wrap: wrap;
 }
@@ -170,19 +170,25 @@ Helpers
   justify-content: center;
 }
 
+.space-evenly {
+  justify-content: space-evenly;
+}
+
 /* ================================
 Counter
 ================================= */
 .counter {
-  width: 100%;
+  width: fit-content;
   background-color: #f5f5f5;
-  padding: 20px 0;
+  padding: 20px 25px;
   border-radius: 5px;
+  margin-bottom: 20px;
 }
 
 .count-title {
-  font-size: 40px;
-  font-weight: normal;
+  color: #043c2f;
+  font-size: 50px;
+  font-weight: 600;
   margin-top: 10px;
   margin-bottom: 0;
   text-align: center;
@@ -283,6 +289,7 @@ Home sections
 }
 
 .section-heading h2 {
+  color: #043c2f;
   font-size: 38px;
   text-transform: uppercase;
 }
@@ -917,7 +924,7 @@ ul.social-network li a i {
 Footer
 ================================= */
 footer {
-  background: #666e65;
+  background: #043c2f;
   color: #fff;
   padding: 50px 0 30px;
 }
@@ -933,14 +940,14 @@ footer a:hover {
 
 a,
 a:hover {
-  color: #666e65;
+  color: #043c2f;
 }
 
 /* ================================
 Buttons
 ================================= */
 .back-to-top {
-  background: #666e65;
+  background: #043c2f;
   color: #fff;
 }
 
@@ -955,7 +962,7 @@ Buttons
 }
 
 .btn-theme {
-  background: #666e65;
+  background: #043c2f;
 }
 
 .service .carousel-indicators .active {
@@ -963,14 +970,14 @@ Buttons
 }
 
 .contact-widget i {
-  color: #666e65;
+  color: #043c2f;
 }
 
 /* ================================
 Navbar
 ================================= */
 .navbar-default {
-  background: #666e65;
+  background: #043c2f;
 }
 
 /* ================================
@@ -978,8 +985,8 @@ Form
 ================================= */
 .form-control:focus {
   border-color: #666;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 2px #666e65;
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 2px #666e65;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 2px #043c2f;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 2px #043c2f;
 }
 
 /* ================================

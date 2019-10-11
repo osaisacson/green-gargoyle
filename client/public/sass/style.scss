@@ -16,7 +16,7 @@ Imports
 /* ================================
 Colors
 ================================= */
-$main-theme-color: #666e65;
+$main-theme-color: #043c2f;
 $main-theme-text-color: #fff;
 
 
@@ -153,6 +153,7 @@ margin, padding
 /* ================================
 Helpers
 ================================= */
+
 .flex-wrap {
   display: flex;
   flex-wrap: wrap;
@@ -168,20 +169,27 @@ Helpers
   justify-content: center;
 }
 
+.space-evenly {
+  @extend .flex-wrap;
+  justify-content: space-evenly
+}
+
 /* ================================
 Counter
 ================================= */
 
 .counter {
-  width: 100%;
+  width: fit-content;
   background-color: #f5f5f5;
-  padding: 20px 0;
+  padding: 20px 25px;
   border-radius: 5px;
+  margin-bottom: 20px;
 }
 
 .count-title {
-  font-size: 40px;
-  font-weight: normal;
+  color: $main-theme-color;
+  font-size: 50px;
+  font-weight: 600;
   margin-top: 10px;
   margin-bottom: 0;
   text-align: center;
@@ -286,6 +294,7 @@ Home sections
 }
 
 .section-heading h2 {
+  color: $main-theme-color;
   font-size: 38px;
   text-transform: uppercase;
 }
